@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', noto serif;
+    box-sizing: border-box;
+}
+.body{
+    background: #080808;
+    color: #fff;
+}
+#mainDesign{
+   background-image: url("bear.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.container{
+    padding: 10px 10;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+ }
+ .logo{
+    width: 150px;
+ }
+ nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+ }
+ nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 50px;
+    position: relative;
+ }
+ nav ul li a::after{
+    content: '';
+    width: 0px;
+    height: 3px;
+    background: #ff125d;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+ }
+ nav ul li a:hover::after{
+    width: 100%;
+ }
+ #header{
+   background-color: rgb(255, 28, 115);
+   height: 100px;
+   width: 1570px;
+}
+.txt69{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin-left: 330px;
+    margin-top: 30px;
+    background-color: transparent;
+    box-shadow: none;
+    border-style: none;
+    font-size: 15px;
+}
+.txt69:hover{  
+   font-size: x-large;
+}
+#sir{
+   animation-name: rtl;
+   animation-duration: 4s;
+   text-align: center;
+   color: black;
+   padding-top: 230px;
+   font-size: xx-large;
+}
+@keyframes rtl{
+   0%{opacity :0;}
+   100%{opacity : 1;}
+}
+
+ 
